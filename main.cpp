@@ -1,10 +1,3 @@
-/*
-Name: Youssif Hisham
-ID: 20200675
-
-Name: Marawan Mohamed
-ID: 20200512
-*/
 
 #include <iostream>
 using namespace std;
@@ -71,24 +64,6 @@ int main()
 
 
 
-/*
-   //Array for Bernoulli Numbers
-   double ber[20] = {0.1666666666666666666667	, -0.03333333333333333333333	, 0.02380952380952380952381	, 0.03333333333333333333333, 0.07575757575757575757576	, 0.2531135531135531135531,
-   1.166666666666666666667	, 7.092156862745098039216, 54.97117794486215538847, -529.1242424242424242424	, 6,192.123188405797101449, -86580.25311355311355311, 1425517.166666666666667, 27298231.06781609195402, 601580873.9006423683843};
-
-   //The Tan(x) formula
-   double a3, b3, c3;
-   long double tanx = 0;
-   for(int i=0; i<15; i++)
-   {
-       a3 = Power(-1,i) * Power(2, (2*i)+2) * Power(2,(2*i)+2)-1* (ber[i]);
-       b3 = Power(angle_in_radian, (2*i)+1);
-       c3 = factorial((2*i)+2);
-       tanx += (a3 * b3)/c3;
-       if(tanx < 0 ) tanx *= -1;
-   }
-   cout <<"Tan(x) = "<<tanx<<endl;
-*/
 
   long double tanx = sinx/cosx;
    cout << "Tan(x) = " << tanx << endl;
